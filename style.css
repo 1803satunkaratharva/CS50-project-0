@@ -1,0 +1,219 @@
+.flex{
+    display: flex;
+    /* align-items: center; */
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline:20px;
+}
+body{
+    font-family: Arial,sans-serif;
+    color: #202124cb;
+}
+p{
+    font-family: Arial, sans-serif;
+    color: #202124cb;
+}
+ul{
+    list-style: none;
+}
+a{
+    font-family: Arial, sans-serif;
+    color: #202124cb;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+img{
+    color: #202124cb;
+}
+.container-u{
+    margin-inline: 10px;
+}
+/* navigation bar  */
+.nav-list{
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+}
+.nav-list li a{
+    text-align: center;
+    /* width: 70px; */
+}
+.primery-btn{
+    background-color: #1a73e8;
+    border-radius: 5px;
+    /* font-weight: 700px; */
+    color: white;
+    width: 50px;
+    padding: 10px 30px;
+    transition: 0.2s ease-out;
+}
+.gmail,.images{
+    text-decoration: none;
+    transition: 0.2s ease-in;
+}
+.gmail:hover,.images:hover{
+    text-decoration: underline;
+}
+
+.primery-btn:hover{
+    background-color: #1a0dab;
+    box-shadow: 0 0 10px #888;
+}
+
+.google-apps{
+    border-radius: 100px;
+    padding: 5px 5px;
+    transition: 0.2s ease-out;
+}
+
+.google-apps:hover{
+    background-color: #f2f2f2;
+}
+
+.google-apps img{
+    width: 25px;
+}
+
+/* google banner */
+
+.google-banner-container{
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.google-banner-container img{
+    width: 300px;
+    /* height: 130px; */
+}
+
+/* google search bar */
+
+.google-main-container{
+    justify-content: center;
+    margin: 25px 40px;
+}
+
+.search-form{
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.search-space{
+    border: solid #dadce0 1px;
+    width: 600px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 10px;
+    transition: 0.2s ease-out;
+}
+.search-space:hover{
+    box-shadow: 0 0 5px 1px #dadce0;
+    /* border:white; */
+}
+
+.search-space img{
+    /* border: solid black 2px; */
+    width: 23px;
+}
+.mag-img{
+    /* border: solid black 2px; */
+    padding: 5px;
+}
+.mic{
+    /* border: solid black 2px; */
+    padding: 5px;
+}
+
+.cam{
+    padding: 5px;
+}
+
+/* .search_space{
+    border: white;
+     width: 480px; 
+}
+ 
+.search_space:focus{
+    border: white;
+}  */
+
+input[type=text] {
+    width: 100%;
+    padding: 8px 5px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid white;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: white;
+  }
+
+/* Empty container  */
+
+.empty-container{
+    /* border: solid 2px black; */
+    height: 220px;
+}
+
+/* footer section css */
+
+.about-section{
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;    /* border: blue solid 1px */
+}
+
+.about-left{
+    flex-direction: row;
+    gap: 15px;
+}
+
+.about-right{
+    /* font-size: medium; */
+    flex-direction: row;
+    gap: 15px;
+}
+.footer-location{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    border-bottom: hsla(214, 4%, 68%, 0.213) groove 0.2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* margin-bottom: 10px; */
+}
+.footer-container{
+    background-color: #f2f2f2;
+}
+
+
+/* search btn and lucky_btn */
+.search-btn{
+    gap: 10px;
+}
+input[type=submit] {
+    /* border: 1px solid white; */
+    background-color: #f2f2f2;
+    border: solid #f2f2f2 0px;
+    height: 40px;
+    width: 150px;
+    border-radius: 3px;
+    transition: 0.0s ease-in;
+}
+  
+input[type=submit]:hover {
+    outline-style: none;
+    outline: #dadce0 solid 1px;
+    /* opacity: 0.6; */
+}
